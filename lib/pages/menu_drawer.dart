@@ -81,7 +81,7 @@ class MenuDrawerPage extends StatelessWidget {
               title: const Text('Profile'),
               selected: menuController.selectedIndex.value == 2,
               onTap: () {
-                menuController.changePage(2);
+                menuController.changePage(1);
                 Navigator.pop(context);
               },
             ),
