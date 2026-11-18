@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'PAS Android',
-      initialRoute: Routes.menudrawer,
+      initialRoute: Routes.login,
       getPages: Routes.myPages,
     );
   }
